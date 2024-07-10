@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General style */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1rem;
+    color: #111;
+    line-height: 1.4;
+}
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+section:not(.hero) {
+    padding: 6rem 0;
+}
+
+section > .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+section > .section-subtitle {
+    text-align: center;
+    color: #242424;
+    margin-bottom: 3rem;
+}
+
+/* Header style */
+header {
+    color: #fff;
+    background-color: #212529;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+header .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+header .logo a .logo-img {
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
+header .btn-toggle {
+    background: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+header .navigation {
+    flex-basis: 100%;
+    margin-top: 1rem;
+    display: none;
+}
+
+header .navigation.active {
+    display: block;
+}
+
+header .nav-items {
+    list-style: none;
+    position: relative;
+}
+
+.nav-items .nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: .5rem 0;
+    display: block;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+
+.nav-items .nav-link:hover {
+    background-color: rgb(162, 7, 124);
+    padding-left: .5rem;
+}
+
+/* Worksheets links style */
+.worksheets {
+    background-color: #f8f9fa;
+}
+
+.worksheet-title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.worksheet-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.worksheet-link li {
+    width: 100%;
+}
+
+.worksheet-link li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #51acf7;
+    padding: 16px;
+    display: block;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
+}
+
+.worksheet-link li a:hover {
+    background-color: #3ba2f7;
+}
+
+.worksheets > .container {
+    background-color: #cae0f4;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
+}
+
+.left-triangle {
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-bottom: 250px solid transparent;
+    border-right: 250px solid #51acf7;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
+}
+
+.right-triangle {
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-bottom: 250px solid transparent;
+    border-left: 250px solid #51acf7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
+}
+
+.content {
+    padding: 40px;
+    width: calc(100% - 500px);
+    margin: 0 250px;
+    color: #37a3fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 1px solid #37a3fc;
+    border-radius: 20px;
+    color: #37a3fc;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    align-self: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
+}
+
+.link-button:hover {
+    background-color: #51acf7;
+    color: #fff;
+}
+
+/* Footer style */
+footer {
+    color: #fff;
+    background-color: #212529;
+    padding: 1.25rem 0;
+}
+
+footer > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .social-items {
+    list-style: none;
+    display: flex;
+    gap: 0.75rem;
+}
+
+footer .social-items .social-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Media Query style */
+@media screen and (min-width: 768px) {
+    /* Header style */
+    header .btn-toggle {
+        display: none;
+    }
+    header .navigation {
+        display: flex;
+        flex-basis: auto;
+        margin: 0;
+    }
+    header .nav-items {
+        display: flex;
+        gap: 1rem;
+    }
+    .nav-items .nav-link {
+        padding: 0.5rem;
+    }
+
+    /* Footer style */
+    footer > .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* Media queries pentru ecrane mici și tablete */
+@media (max-width: 1024px) {
+    .worksheets > .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .left-triangle, .right-triangle {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .worksheet-link li a {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    .link-button {
+        width: 100%;
+        text-align: center;
+    }
+}

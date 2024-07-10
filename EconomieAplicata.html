@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styleLectii.css"/>
+    <title>Economie Aplicată</title>
+</head>
+<body>
+    <!-- Start header section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="./images/logo.png" alt="Logo" class="logo-img">
+                    Profa de Economie</a>
+            </div>
+            <button id="navToggleBtn" class="btn-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="navigation">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Despre mine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Școlile mele</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Cursurile mele</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End header section -->
+    
+    <!-- Start main section -->
+    <main>
+        <!-- Start hero section -->  
+        <section id="hero" class="hero">
+            <div class="hero-overlay">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Economie Aplicată</h1>
+                        <p>Vino să vezi cum să economisești, să investești și să-ți îmbunătățești calitatea vieții
+                        </p>
+                        <a href="#lesson" class="btn-primary">Vezi lecțiile</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End hero section -->
+
+        <!-- Start lesson section -->
+        <section id="lesson" class="lesson">
+            <h2 class="section-title">
+                Lecțiile de Economie Aplicată
+            </h2>
+            <p class="section-subtitle">
+                Utilizarea conceptelor economice în situații economice 
+                concrete
+            </p>
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="https://drive.google.com/file/d/1KI_45or_ypi8wxFwN1AztE8nc4TYwZ5_/view?usp=sharing" onclick="showVideo('//drive.google.com/file/d/1KI_45or_ypi8wxFwN1AztE8nc4TYwZ5_/view?usp=sharing'); return false;">
+                    <img src="./images/budget1.jpg" alt="Bugetul, Proiecte, Economisirea">
+                    <div class="title">Bugetul, Proiecte, Economisirea</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="https://drive.google.com/file/d/104dOWWbr05iTMmE4DGlg2hWn3ottrfKQ/view?usp=sharing" onclick="showVideo('//drive.google.com/file/d/104dOWWbr05iTMmE4DGlg2hWn3ottrfKQ/view?usp=sharing'); return false;">
+                    <img src="./images/credit1.jpg" alt="Creditul pentru persoane fizice">
+                    <div class="title">Creditul pentru persoane fizice</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="https://drive.google.com/file/d/1rRomeL4lpq6NSo2vBK3gWZ1w2m0P1GXI/view?usp=sharing" onclick="showVideo('//drive.google.com/file/d/1rRomeL4lpq6NSo2vBK3gWZ1w2m0P1GXI/view?usp=sharing'); return false;">
+                    <img src="./images/asigurare.jpg" alt="Asigurarea persoanelor fizice">
+                    <div class="title">Asigurarea persoanelor fizice</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="https://drive.google.com/file/d/12l9znE6wJF0WH58mIuGG_yJgcvcPnl9w/view?usp=sharing" onclick="showVideo('//drive.google.com/file/d/12l9znE6wJF0WH58mIuGG_yJgcvcPnl9w/view?usp=sharing'); return false;">
+                    <img src="./images/swot1.jpeg" alt="Analiza SWOT">
+                    <div class="title">Analiza SWOT</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="https://drive.google.com/file/d/1VbX99_l8SH2kbFMW2nKlz1uw2GxM89WW/view?usp=sharing" onclick="showVideo('//drive.google.com/file/d/1VbX99_l8SH2kbFMW2nKlz1uw2GxM89WW/view?usp=sharing'); return false;">
+                    <img src="./images/finantare.jpg" alt="Posibilități de finanțare a firmelor">
+                    <div class="title">Posibilități de finanțare a firmelor</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="https://drive.google.com/file/d/1KuFP2VpuRvCxFtb98ZdZI8lMAkX_-Ozn/view?usp=sharing" onclick="showVideo('//drive.google.com/file/d/1KuFP2VpuRvCxFtb98ZdZI8lMAkX_-Ozn/view?usp=sharing'); return false;">
+                    <img src="./images/salarizarea1.jpg" alt="Salarizarea personalului firmei">
+                    <div class="title">Salarizarea personalului firmei</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End lesson section -->
+    </main>
+    <!-- End main section -->
+
+    <!-- Start footer section -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright 2024. Toate drepturile rezervate.</p>
+            </div>
+            <ul class="social-items">
+                <li class="social-item">
+                    <a href="https://www.facebook.com/daciana.costea.9" target="_blank" class="social-link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="mailto:daciana_costea@yahoo.com" target="_blank" class="social-link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/dacia-costea-60aa4b275/" target="_blank" class="social-link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://www.instagram.com/dacianacostea/" target="_blank" class="social-link">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End footer section -->
+
+    <script src="https://kit.fontawesome.com/3d9d5a1996.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

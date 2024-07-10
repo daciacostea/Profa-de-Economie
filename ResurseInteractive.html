@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleLectii.css"/>
+    <title>Resurse interactice</title>
+</head>
+<body>
+    <!-- Start header section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="./images/logo.png" alt="Logo" class="logo-img">
+                    Profa de Economie</a>
+            </div>
+            <button id="navToggleBtn" class="btn-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="navigation">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Despre mine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Școlile mele</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Cursurile mele</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End header section -->
+   
+    <!-- Start main section -->
+    <main>
+        <!-- Start hero section -->  
+        <section id="hero" class="hero">
+            <div class="hero-overlay">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Resurse interactive</h1>
+                        <p>
+                            Gamification în context educațional sau cum să înveți într-un mod atractiv
+                        </p>
+                        <a href="#lesson" class="btn-primary">Vezi resursele</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End hero section -->
+
+        <!-- Start lesson section -->
+        <section id="lesson" class="lesson">
+            <h2 class="section-title">Resurse interactive</h2>
+                <p class="section-subtitle">
+                    Cu ajutorul acestor resurse interactive te vei distra și vei învăța
+                </p>
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="LectiiInteractive.html">
+                    <img src="./images/lectiiinteractive1.jpg" alt="Lecții interactive">
+                    <div class="title">Lecții interactive</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="FiseInteractiveEducatieAntreprenoriala.html">
+                    <img src="./images/jocurieda.jpg" alt="Jocuri didactice educație antreprenorială">
+                    <div class="title">Fișe interactive Educație Antreprenorială</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="FiseInteractiveEconomie.html">
+                    <img src="./images/jocurieconomie.jpg" alt="Jocuri didactice economie">
+                    <div class="title">Fișe interactive Economie</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="FiseInteractiveEconomieAplicata.html">
+                    <img src="./images/jocurieconomieaplicata.jpg" alt="Jocuri didactice economie aplicată">
+                    <div class="title">Fișe interactive Economie Aplicată</div>
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="FiseInteractiveEconomiaIntreprinderii.html">
+                    <img src="./images/jocuriecointreprinderii.jpg" alt="Jocuri didactice economia întreprinderii">
+                    <div class="title">Fișe interactive Economia Întreprinderii</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End lesson section -->
+        <script>
+            function showVideo(videoLink) {
+                window.open(videoLink, 'Videoclip', 'width=800,height=600');
+            }
+        </script>
+    </main>
+    <!-- End main section -->
+
+    <!-- Start footer section -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright 2024. Toate drepturile rezervate.</p>
+            </div>
+            <ul class="social-items">
+                <li class="social-item">
+                    <a href="https://www.facebook.com/daciana.costea.9" target="_blank" class="social-link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="mailto:daciana_costea@yahoo.com" target="_blank" class="social-link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/dacia-costea-60aa4b275/" target="_blank" class="social-link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://www.instagram.com/dacianacostea/" target="_blank" class="social-link">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End footer section -->
+    <script src="https://kit.fontawesome.com/3d9d5a1996.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
