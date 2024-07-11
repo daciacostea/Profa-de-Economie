@@ -55,7 +55,7 @@ section > .section-subtitle {
 .btn-primary {
     text-decoration: none;
     color: #fff;
-    background-color: rgb(162, 7, 124);
+    background-color: darkmagenta;
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 5px;
@@ -67,7 +67,7 @@ section > .section-subtitle {
 
 .btn-primary:hover {
     background-color: #fff;
-    color: rgb(162, 7, 124);
+    color: darkmagenta;
 }
 
 /* Header style */
@@ -136,7 +136,7 @@ header .nav-items {
 }
 
 .nav-items .nav-link:hover {
-    background-color: rgb(142, 5, 108);
+    background-color: darkmagenta;
     padding-left: .5rem;
 }
 

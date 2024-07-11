@@ -119,7 +119,7 @@ header .nav-items {
 }
 
 .nav-items .nav-link:hover {
-    background-color: rgb(162, 7, 124);
+    background-color: darkmagenta;
     padding-left: .5rem;
 }
 
@@ -165,7 +165,7 @@ header .nav-items {
 }
 
 .worksheets > .container {
-    background-color: #cae0f4;
+    background-color: #cce6fc;
     border-radius: 20px;
     width: 80%;
     display: flex;
@@ -181,7 +181,7 @@ header .nav-items {
     height: 0;
     border-top: 250px solid transparent;
     border-bottom: 250px solid transparent;
-    border-right: 250px solid #51acf7;
+    border-right: 250px solid #37a3fc;
     position: absolute;
     left: 0;
     top: 50%;
@@ -194,7 +194,7 @@ header .nav-items {
     height: 0;
     border-top: 250px solid transparent;
     border-bottom: 250px solid transparent;
-    border-left: 250px solid #51acf7;
+    border-left: 250px solid #37a3fc;
     position: absolute;
     right: 0;
     top: 50%;
