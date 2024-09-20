@@ -182,7 +182,7 @@ header .nav-items {
 }
 
 
-/* Lesson style */
+/* LessonS style */
 
 .lessons {
     background-color: #f8f9fa;
@@ -205,14 +205,15 @@ header .nav-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     background-color: #f8f9fa;
 }
+
 .video .thumbnail {
     position: relative;
     width: 360px;
     height: 250px;
-    margin: 16px;
+    margin: 1rem;
     overflow: hidden;
     transition: transform 0.5s;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
@@ -271,8 +272,8 @@ footer .social-items .social-link {
 @media screen and (min-width: 768px) {
     /* General style */
     .btn-primary {
-      font-size: 1rem;
-      padding: 1rem 3rem;
+        font-size: 1rem;
+        padding: 1rem 3rem;
     }
 
     /* Header style */

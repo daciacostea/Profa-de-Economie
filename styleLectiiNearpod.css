@@ -227,7 +227,6 @@ iframe {
 .link-button:hover {
     background-color: #37a3fc;
     color: #fff;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
 }
 
 /* Footer style */
@@ -257,12 +256,6 @@ footer .social-items .social-link {
 
 /* Media Query style */
 @media screen and (min-width: 768px) {
-
-    /* General style */
-    .btn-primary {
-        font-size: 1rem;
-        padding: 1rem 3rem;
-    }
     
     /* Header style */
     header .btn-toggle {
@@ -280,7 +273,6 @@ footer .social-items .social-link {
     .nav-items .nav-link {
       padding: 0.5rem;
     }
-
 
     /* Footer style */
     footer > .container {
@@ -316,6 +308,5 @@ footer .social-items .social-link {
         width: 50%;
         text-align: center;
     }
-
 }
 
